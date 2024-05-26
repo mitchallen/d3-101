@@ -4,12 +4,7 @@ NODE_MODULES := $(PROJECT_DIR)/node_modules
 INDEX_HTML := $(PROJECT_DIR)/index.html
 
 # Default target
-all: install serve
-
-# Install dependencies
-install:
-	@echo "Installing dependencies..."
-	npm install
+all: run
 
 # Start a simple HTTP server
 serve:
@@ -28,6 +23,6 @@ clean:
 
 # Run everything
 # Open first so don't need other thread - will refresh automatically
-run: install open serve
+run: open serve
 
-.PHONY: clean run
+.PHONY: all

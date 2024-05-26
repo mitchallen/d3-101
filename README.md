@@ -8,7 +8,7 @@ d3-101
 ## Usage
 
 ```sh
-make run
+make
 ```
 
 ## Notes
