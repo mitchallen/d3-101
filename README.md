@@ -5,5 +5,9 @@ d3-101
 
 ```sh
 make run
-open http://127.0.0.1:8080/
 ```
+
+## References
+
+* https://cdnjs.com/libraries/d3
+* https://d3js.org/

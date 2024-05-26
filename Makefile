@@ -27,6 +27,7 @@ clean:
 	rm -rf $(NODE_MODULES)
 
 # Run everything
-run: install serve open
+# Open first so don't need other thread - will refresh automatically
+run: install open serve
 
-.PHONY: all install serve open clean run
+.PHONY: clean run
