@@ -1,0 +1,16 @@
+{
+  "name": "d3-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "make run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mitch Allen",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^7.9.0"
+  }
+}
