@@ -1,11 +1,19 @@
 d3-101
 ==
 
+## Live Demo
+
+* https://mitchallen.github.io/d3-101/
+
 ## Usage
 
 ```sh
 make run
 ```
+
+## Notes
+
+Using a JSON hierachy is fine for small trees only.
 
 ## References
 
